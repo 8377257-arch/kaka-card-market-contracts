@@ -1,0 +1,143 @@
+{
+  "schemaVersion": "KAKA_MAINNET_V1_DEPLOYMENT_1",
+  "project": "KAKA CARD MARKET",
+  "status": "confirmed-and-independently-verified",
+  "verifiedAt": "2026-09-26T07:07:06.189Z",
+  "network": {
+    "name": "BNB Smart Chain Mainnet",
+    "chainId": 56
+  },
+  "candidateId": "kaka-public-scale-c9481ccdffc2ddf8",
+  "authorizationRecordSha256": "0xfc664a4762adfedc0b7a8ad1ecbc4e5d32ae1f92ac8e012bb1de5477236febdb",
+  "safeAuthorizationTransaction": "0xad451b6e8793c7db0e9a5da5a37f1fa55e2f696b819e4e82e197fb96616595e7",
+  "transactionHash": "0x437a34d9388335b763c33c901688b6560c2d250c8a7e1c79820e9510ca18cdda",
+  "blockNumber": 124096835,
+  "blockHash": "0xf267467579fa9b6de34a5c90addc016c89c63d849370f58e679303cf8b81d147",
+  "deployedAt": "2026-09-26T06:58:05.000Z",
+  "deployer": "0x6113Fd676260Df428a806e3997cE7E1Ae1AAb1F8",
+  "deployerNonce": 4,
+  "transactionValueWei": "0",
+  "gasUsed": "9151517",
+  "gasPriceGwei": "0.080920812",
+  "actualGasCostBnb": "0.000740548186671804",
+  "deploymentInputKeccak256": "0xc13129d4f704e0b913f6a854955bb120a65738715e8f285e2f1301cc9ec81520",
+  "managerCreationCodeHash": "0x06dfc544c7416f85617a89141e011f76c3a2ec8f2043e52f91bda3c854a5831d",
+  "addresses": {
+    "manager": "0xe4cdE81575989d7E688Ce49529dc180A6e43AF50",
+    "cards": "0x56C8Aee9693A8ee3a3CDC4d36f9579e555Cd6b51",
+    "packs": "0x1Bc49B07bC22bFe9fb1e7660751196ED569B19D6",
+    "marketplace": "0xbB18DaD0B1c08A316d325475E9AF2178122957eB"
+  },
+  "runtimeCode": {
+    "manager": {
+      "address": "0xe4cdE81575989d7E688Ce49529dc180A6e43AF50",
+      "bytes": 21495,
+      "keccak256": "0x613fdad1817d1aba4daa9f7926c30c0102fcc7d3fcd793c727c77589e60cce46"
+    },
+    "cards": {
+      "address": "0x56C8Aee9693A8ee3a3CDC4d36f9579e555Cd6b51",
+      "bytes": 6340,
+      "keccak256": "0x3a8433c4eef472d00caa5c55233b7820fba18b8fbe9cdfc1cf5ce3f025624250"
+    },
+    "packs": {
+      "address": "0x1Bc49B07bC22bFe9fb1e7660751196ED569B19D6",
+      "bytes": 6362,
+      "keccak256": "0x7910c671cb2dd89bc67b37bc2034d52ce5c000bcabd278aa4907a22435e3889b"
+    },
+    "marketplace": {
+      "address": "0xbB18DaD0B1c08A316d325475E9AF2178122957eB",
+      "bytes": 5696,
+      "keccak256": "0x385d7bb8a136476cf2ee61769efa42cc444f0b46f3b49b340ac26d66a9cf7eff"
+    }
+  },
+  "roles": {
+    "governance": "0xE5C3495D06E90a675D935C0c5c180f7075F6e69f",
+    "riskAdmin": "0xE5C3495D06E90a675D935C0c5c180f7075F6e69f",
+    "reviewer": "0x4C6e75a7782323d391734bD9D57b7AF764D10D8A"
+  },
+  "economics": {
+    "platformFeeBps": 500,
+    "marketplaceFeeBps": 500,
+    "feeRecipient": "0xE5C3495D06E90a675D935C0c5c180f7075F6e69f"
+  },
+  "capacity": {
+    "publisherLimit": 1000,
+    "collectionsPerPublisher": 1,
+    "cardFacesPerCollection": 30,
+    "cardBacksPerCollection": 30
+  },
+  "initialState": {
+    "nextEditionId": 1,
+    "publisherCount": 0,
+    "protocolPaused": false,
+    "marketPaused": false,
+    "nextListingId": 1,
+    "nextCardInstanceId": 1
+  },
+  "rpcVerification": [
+    {
+      "endpoint": "bsc-dataseed.bnbchain.org",
+      "chainId": 56,
+      "latestBlock": 124098012
+    },
+    {
+      "endpoint": "bsc.publicnode.com",
+      "chainId": 56,
+      "latestBlock": 124098015
+    }
+  ],
+  "verification": {
+    "safeAuthorization": true,
+    "authorizationWindow": true,
+    "predictedAddresses": true,
+    "frozenDeploymentInput": true,
+    "transactionValueZero": true,
+    "gasCaps": true,
+    "runtimeCodeAcrossTwoRpcs": true,
+    "controllers": true,
+    "marketplaceAssets": true,
+    "roles": true,
+    "platformFees": true,
+    "capacity": true,
+    "cleanInitialState": true
+  },
+  "sourceVerification": {
+    "service": "Sourcify",
+    "checkedAt": "2026-09-26T07:14:30.313Z",
+    "report": "deployments/bsc-mainnet-v1-public-scale-sourcify.json",
+    "contracts": {
+      "manager": {
+        "status": "completed",
+        "match": "exact_match",
+        "creationMatch": "exact_match",
+        "runtimeMatch": "exact_match",
+        "repositoryUrl": "https://repo.sourcify.dev/56/0xe4cdE81575989d7E688Ce49529dc180A6e43AF50",
+        "explorerUrl": "https://bscscan.com/address/0xe4cdE81575989d7E688Ce49529dc180A6e43AF50#code"
+      },
+      "cards": {
+        "status": "completed",
+        "match": "exact_match",
+        "creationMatch": null,
+        "runtimeMatch": "exact_match",
+        "repositoryUrl": "https://repo.sourcify.dev/56/0x56C8Aee9693A8ee3a3CDC4d36f9579e555Cd6b51",
+        "explorerUrl": "https://bscscan.com/address/0x56C8Aee9693A8ee3a3CDC4d36f9579e555Cd6b51#code"
+      },
+      "packs": {
+        "status": "completed",
+        "match": "exact_match",
+        "creationMatch": null,
+        "runtimeMatch": "exact_match",
+        "repositoryUrl": "https://repo.sourcify.dev/56/0x1Bc49B07bC22bFe9fb1e7660751196ED569B19D6",
+        "explorerUrl": "https://bscscan.com/address/0x1Bc49B07bC22bFe9fb1e7660751196ED569B19D6#code"
+      },
+      "marketplace": {
+        "status": "completed",
+        "match": "exact_match",
+        "creationMatch": null,
+        "runtimeMatch": "exact_match",
+        "repositoryUrl": "https://repo.sourcify.dev/56/0xbB18DaD0B1c08A316d325475E9AF2178122957eB",
+        "explorerUrl": "https://bscscan.com/address/0xbB18DaD0B1c08A316d325475E9AF2178122957eB#code"
+      }
+    }
+  }
+}

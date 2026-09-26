@@ -1,0 +1,85 @@
+{
+  "service": "Sourcify",
+  "apiVersion": "v2",
+  "scope": "KAKA public-scale candidate on BSC Mainnet",
+  "chainId": 56,
+  "buildInfo": "9d74dd28c86af06edc13c8a8ac3c4ae1.json",
+  "compilerVersion": "0.8.37+commit.f401782d",
+  "localCompilerVersion": "0.8.37+commit.f401782d.Emscripten.clang",
+  "checkedAt": "2026-09-26T07:14:30.313Z",
+  "dryRun": false,
+  "results": [
+    {
+      "key": "manager",
+      "address": "0xe4cdE81575989d7E688Ce49529dc180A6e43AF50",
+      "contractIdentifier": "contracts/v1/KakaCollectionManagerV1.sol:KakaCollectionManagerV1",
+      "status": "completed",
+      "verificationId": "a6e8b077-fd77-45bb-bd7a-15807f9f5068",
+      "match": "exact_match",
+      "creationMatch": "exact_match",
+      "runtimeMatch": "exact_match",
+      "verifiedAt": "2026-09-26T07:14:09Z",
+      "error": null,
+      "externalVerifications": null,
+      "repositoryUrl": "https://repo.sourcify.dev/56/0xe4cdE81575989d7E688Ce49529dc180A6e43AF50",
+      "explorerUrl": "https://bscscan.com/address/0xe4cdE81575989d7E688Ce49529dc180A6e43AF50#code"
+    },
+    {
+      "key": "cards",
+      "address": "0x56C8Aee9693A8ee3a3CDC4d36f9579e555Cd6b51",
+      "contractIdentifier": "contracts/v1/KakaCardsV1.sol:KakaCardsV1",
+      "status": "completed",
+      "verificationId": "9d25dcec-dc20-46d4-87de-f08a280e807b",
+      "match": "exact_match",
+      "creationMatch": null,
+      "runtimeMatch": "exact_match",
+      "verifiedAt": "2026-09-26T07:14:19Z",
+      "error": null,
+      "externalVerifications": {
+        "etherscan": {
+          "error": "Daily limit of 500 source code submissions reached"
+        }
+      },
+      "repositoryUrl": "https://repo.sourcify.dev/56/0x56C8Aee9693A8ee3a3CDC4d36f9579e555Cd6b51",
+      "explorerUrl": "https://bscscan.com/address/0x56C8Aee9693A8ee3a3CDC4d36f9579e555Cd6b51#code"
+    },
+    {
+      "key": "packs",
+      "address": "0x1Bc49B07bC22bFe9fb1e7660751196ED569B19D6",
+      "contractIdentifier": "contracts/v1/KakaPacksV1.sol:KakaPacksV1",
+      "status": "completed",
+      "verificationId": "4f193164-88a1-4ad8-8970-3541d765e32b",
+      "match": "exact_match",
+      "creationMatch": null,
+      "runtimeMatch": "exact_match",
+      "verifiedAt": "2026-09-26T07:14:24Z",
+      "error": null,
+      "externalVerifications": {
+        "etherscan": {
+          "error": "Daily limit of 500 source code submissions reached"
+        }
+      },
+      "repositoryUrl": "https://repo.sourcify.dev/56/0x1Bc49B07bC22bFe9fb1e7660751196ED569B19D6",
+      "explorerUrl": "https://bscscan.com/address/0x1Bc49B07bC22bFe9fb1e7660751196ED569B19D6#code"
+    },
+    {
+      "key": "marketplace",
+      "address": "0xbB18DaD0B1c08A316d325475E9AF2178122957eB",
+      "contractIdentifier": "contracts/v1/KakaMarketplaceV1.sol:KakaMarketplaceV1",
+      "status": "completed",
+      "verificationId": "48170ddb-2c5b-48ff-a58e-197ae9daaabc",
+      "match": "exact_match",
+      "creationMatch": null,
+      "runtimeMatch": "exact_match",
+      "verifiedAt": "2026-09-26T07:14:29Z",
+      "error": null,
+      "externalVerifications": {
+        "etherscan": {
+          "error": "Daily limit of 500 source code submissions reached"
+        }
+      },
+      "repositoryUrl": "https://repo.sourcify.dev/56/0xbB18DaD0B1c08A316d325475E9AF2178122957eB",
+      "explorerUrl": "https://bscscan.com/address/0xbB18DaD0B1c08A316d325475E9AF2178122957eB#code"
+    }
+  ]
+}

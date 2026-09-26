@@ -1,0 +1,9 @@
+node_modules/
+artifacts/
+.cache/
+.hardhat-appdata/
+.hardhat-localappdata/
+coverage/
+.env
+.env.*
+*.log
