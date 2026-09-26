@@ -48,4 +48,3 @@ The Hardhat configuration has no live-network entry and does not read deployment
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
